@@ -1,0 +1,32 @@
+{
+  "author": "Nico Poblete",
+  "title": "ForestNal",
+  "url": "http://forestnal.net",
+  "version": "0.5.0",
+  "private": true,
+  "devDependencies": {
+    "metalsmith": "^",
+    "metalsmith-assets": "^",
+    "metalsmith-pug": "^",
+  },
+  "plugins": {
+    "metalsmith-layouts": {
+      "engine": "pug",
+      "directory": "layouts",
+      "default": "layout.pug"
+    },
+    "metalsmith-pug": {
+      "pretty": false,
+      "useMetadata": true
+    }
+  },
+  "repositories": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boaromayo/forestnal.git"
+  },
+  "scripts": {
+    "build": "node index",
+    "start": "npm run deploy",
+    "deploy": ""
+  }
+}
