@@ -1,4 +1,4 @@
 # Forestnal
 ------------------------
 
-This is a sample website to demonstrate the features of [Metalsmith](http://metalsmith.io/).
+This is a sample website demonstrating the features of [Metalsmith](http://metalsmith.io/).
