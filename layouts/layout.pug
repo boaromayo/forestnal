@@ -1,0 +1,15 @@
+//- layout.pug - Default layout page.
+html(lang='en')
+  head
+  
+  body
+    block header
+      header.header
+    
+    div.wrapper
+      main.main-content(aria-label='Content')
+        block content
+          != contents
+    
+    block footer
+      footer.footer  
